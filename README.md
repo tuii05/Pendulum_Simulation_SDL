@@ -1,8 +1,8 @@
 ## Single pendulum simulation with air resistance - C++, SDL
 
-The simulation contains one pendulum and renders its motion physically accurately by solving the differential equation, derived from laws of Newton, with Euler's method. The program gives out two graphs after solving the equatian and its parameters are modifiable via `datas.txt`, meanwhile the program is runnable with `main.exe`.
+The simulation contains one pendulum and renders its motion physically accurately by solving the differential equation, derived from laws of Newton, with Euler's method. The program gives out two graphs after solving the equatian and its parameters are modifiable in `main.cpp`, meanwhile the program is runnable with `Main.exe`.
 
-The parameters in `datas.txt` are the following:
+The parameters in `main.cpp` are modifiable if we modify the 10th line of the code (`inga proba1(phi0,L,m,K)`). The parameters, that can be modified, are the following:
 
 - `phi0`: initial angular displacement  
 - `L`: the length of the pendulum  
