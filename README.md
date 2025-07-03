@@ -8,8 +8,3 @@ The parameters in `main.cpp` are modifiable if we modify the 10th line of the co
 - `L`: the length of the pendulum  
 - `m`: the mass of the pendulum  
 - `k`: a coefficient including the drag factor, the cross-sectional area, and the density  
-
-Pendulum Simulation utilizing the opportunities provided by the SDL2 graphical library.
-
-After editing anything you can make a new "Main.exe" file by using the following command: 
-mingw32-make -f Makefile
